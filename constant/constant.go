@@ -27,6 +27,8 @@ const (
 	ServiceResolverContractAddr     BoltContractAddress = "0x0000000000000000000000000000000000000023"
 	VrfSortContractAddr             BoltContractAddress = "0x0000000000000000000000000000000000000024"
 	SelectHostContractAddr          BoltContractAddress = "0x0000000000000000000000000000000000000025"
+	SecretShareContractAddr         BoltContractAddress = "0x0000000000000000000000000000000000000026"
+	TempKeyMapContractAddr          BoltContractAddress = "0x0000000000000000000000000000000000000027"
 )
 
 func (addr BoltContractAddress) Address() *types.Address {
